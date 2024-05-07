@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Mi Blog</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="acerca.html">Acerca de</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducción a CSS</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Estilos CSS personalizados */
+        .highlight {
+            background-color: #f8f9fa;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .highlight h2 {
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Introducción a CSS</h1>
+    
+    <div class="row">
+        <div class="col-md-8">
+            <p>CSS (Cascading Style Sheets) es un lenguaje utilizado para describir la presentación de un documento HTML. Permite definir el diseño, el formato y el aspecto visual de una página web.</p>
+            <p>Con CSS, puedes controlar aspectos como el color del texto, el tamaño de las fuentes, la disposición de los elementos en la página, el espaciado, los márgenes y mucho más.</p>
+            <div class="highlight">
+                <h2>Selección de elementos</h2>
+                <p>Con CSS, puedes seleccionar elementos HTML utilizando diferentes tipos de selectores, como selectores de etiquetas, de clase, de ID y de atributo.</p>
+                <p>Por ejemplo:</p>
+                <pre>
+                    <code>
+/* Selector de etiqueta */
+p {
+    color: blue;
+}
+
+/* Selector de clase */
+.highlight {
+    background-color: #f8f9fa;
+}
+
+/* Selector de ID */
+#header {
+    font-size: 24px;
+}
+
+/* Selector de atributo */
+input[type="text"] {
+    border: 1px solid #ccc;
+}
+                    </code>
+                </pre>
+            </div>
+            <p>Estos son solo algunos ejemplos básicos de lo que se puede lograr con CSS. A medida que aprendas más sobre este lenguaje, podrás crear diseños web más complejos y atractivos.</p>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Recursos adicionales</h5>
+                    <p class="card-text">Si estás interesado en aprender más sobre CSS, aquí tienes algunos recursos recomendados:</p>
+                    <ul>
+                        <li><a href="https://www.w3schools.com/css/" target="_blank">W3Schools - CSS Tutorial</a></li>
+                        <li><a href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank">MDN Web Docs - CSS</a></li>
+                        <li><a href="https://www.codecademy.com/learn/learn-css" target="_blank">Codecademy - Learn CSS</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
